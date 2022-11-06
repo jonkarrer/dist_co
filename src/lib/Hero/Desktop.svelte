@@ -17,7 +17,7 @@
       height: 100vh;
       width: 100vw;
 
-      border: 70px white solid;
+      border: var(--desktop__bounds) white solid;
 
       background-image: url("/hero/blonde-extensions-distilled-hair-co.jpg");
       background-size: cover;

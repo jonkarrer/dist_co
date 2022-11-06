@@ -10,7 +10,7 @@
   --mobile__max-width: 500px;
   --mobile__bounds: 0 24px;
   --desktop__max-width: 1000px;
-  --desktop__bounds: 0 46px;
+  --desktop__bounds: 70px;
   --image_radius: 3px;
 
   --accent: #625a3c;
@@ -26,6 +26,10 @@
 a {
   text-decoration: none;
   color: inherit;
+}
+img {
+  display: block;
+  border-radius: 3px;
 }
 
 /*

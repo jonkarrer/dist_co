@@ -24,8 +24,8 @@
 */
   @media (min-width: 1024px) {
     main {
-      max-width: var(--desktop__max-width);
-      padding: var(--desktop__bounds);
+      max-width: unset;
+      padding: 0 var(--desktop__bounds);
     }
   }
 
