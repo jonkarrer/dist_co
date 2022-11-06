@@ -1,8 +1,9 @@
 <script>
   export let text;
+  export let margin;
 </script>
 
-<button>
+<button style={`margin:${margin}`}>
   <a href="/">{text}</a>
 </button>
 

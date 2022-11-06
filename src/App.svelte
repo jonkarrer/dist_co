@@ -1,12 +1,14 @@
 <script>
   import Header from "./lib/Header/Header.svelte";
   import Hero from "./lib/Hero/Hero.svelte";
+  import Extensions from "./lib/Extensions/Extensions.svelte";
   import About from "./lib/About/About.svelte";
 </script>
 
 <Header />
 <Hero />
 <main>
+  <Extensions />
   <About />
 </main>
 
