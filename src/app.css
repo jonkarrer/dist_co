@@ -1,0 +1,69 @@
+@import url("./styles/fonts/font.css");
+
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --mobile__max-width: 500px;
+  --mobile__bounds: 0 24px;
+  --desktop__max-width: 1000px;
+  --desktop__bounds: 0 46px;
+  --image_radius: 3px;
+
+  --accent: #625a3c;
+  --light_shade: #e9e4da;
+  --super_dark: #231e1f;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/*
+***********************************************************
+* SM
+***********************************************************
+*/
+@media (min-width: 640px) {
+}
+
+/*
+***********************************************************
+* MD
+***********************************************************
+*/
+@media (min-width: 768px) {
+}
+
+/*
+***********************************************************
+* LG
+***********************************************************
+*/
+@media (min-width: 1024px) {
+}
+
+/*
+***********************************************************
+* XL
+***********************************************************
+*/
+@media (min-width: 1280px) {
+}
+
+/*
+***********************************************************
+* 2XL
+***********************************************************
+*/
+@media (min-width: 1536px) {
+}

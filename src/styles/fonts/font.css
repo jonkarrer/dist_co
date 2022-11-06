@@ -1,0 +1,108 @@
+@font-face {
+  font-family: "Script";
+  src: url("./script/adelicia_script_clean.woff2") format("woff2"),
+    url("./script/adelicia_script_clean.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Forum";
+  src: url("./forum/forum-regular.woff2") format("woff2"),
+    url("./forum/forum-regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Branch";
+  src: url("./branch/fontsfree-net-branch-webfont.woff2") format("woff2"),
+    url("./branch/fontsfree-net-branch-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*
+***************************************************
+ * Headings 
+***************************************************
+*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Branch;
+  font-weight: 400;
+  color: var(--dark);
+}
+h1 {
+  font-size: calc(0.9vw + 54px);
+}
+h2 {
+  font-size: calc(0.9vw + 32px);
+  line-height: 1.2;
+}
+
+/*
+***************************************************
+ * Paragraphs 
+***************************************************
+*/
+p {
+  font-family: Forum;
+  font-weight: 400;
+  color: var(--dark);
+  font-size: calc(0.6vw + 1rem);
+}
+
+/*
+***************************************************
+ * Buttons 
+***************************************************
+*/
+.btn,
+a {
+  font-family: Forum;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+/*
+***********************************************************
+* SM
+***********************************************************
+*/
+@media (min-width: 640px) {
+}
+
+/*
+***********************************************************
+* MD
+***********************************************************
+*/
+@media (min-width: 768px) {
+}
+
+/*
+***********************************************************
+* LG
+***********************************************************
+*/
+@media (min-width: 1024px) {
+}
+
+/*
+***********************************************************
+* XL
+***********************************************************
+*/
+@media (min-width: 1280px) {
+}
+
+/*
+***********************************************************
+* 2XL
+***********************************************************
+*/
+@media (min-width: 1536px) {
+}
