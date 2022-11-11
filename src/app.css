@@ -36,6 +36,13 @@ img {
   border-radius: 3px;
 }
 
+ul {
+  list-style: none;
+}
+li {
+  list-style: none;
+}
+
 /*
 ***********************************************************
 * SM

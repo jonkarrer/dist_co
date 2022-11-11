@@ -8,6 +8,6 @@
 
 <style>
   footer {
-    margin: 100px auto;
+    margin: 160px auto 50px auto;
   }
 </style>
