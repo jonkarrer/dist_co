@@ -39,12 +39,10 @@
   @media (min-width: 1024px) {
     .wrapper {
       display: flex;
-      justify-content: space-between;
       align-items: center;
-      height: 100vh;
+      justify-content: space-between;
 
-      /* Tom Fuckery */
-      margin-top: -50px;
+      height: 100vh;
       margin-bottom: 50px;
     }
     article {
@@ -57,11 +55,11 @@
       margin: auto;
     }
     img.larger {
-      width: 75%;
+      width: 350px;
       padding: 0 20px;
     }
     img.smaller {
-      width: 65%;
+      width: 300px;
     }
   }
 </style>

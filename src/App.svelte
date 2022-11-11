@@ -3,6 +3,8 @@
   import Hero from "./lib/Hero/Hero.svelte";
   import Extensions from "./lib/Extensions/Extensions.svelte";
   import About from "./lib/About/About.svelte";
+  import Reviews from "./lib/Reviews/Container.svelte";
+  import Gallery from "./lib/Gallery/Gallery.svelte";
 </script>
 
 <Header />
@@ -10,6 +12,8 @@
 <main>
   <Extensions />
   <About />
+  <Reviews />
+  <Gallery />
 </main>
 
 <style>
