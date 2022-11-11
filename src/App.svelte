@@ -5,6 +5,9 @@
   import About from "./lib/About/About.svelte";
   import Reviews from "./lib/Reviews/Container.svelte";
   import Gallery from "./lib/Gallery/Gallery.svelte";
+  import Training from "./lib/Training/Training.svelte";
+  import Products from "./lib/Products/Products.svelte";
+  import Footer from "./lib/Footer/Footer.svelte";
 </script>
 
 <Header />
@@ -12,8 +15,11 @@
 <main>
   <Extensions />
   <About />
-  <Reviews />
   <Gallery />
+  <Reviews />
+  <Training />
+  <Products />
+  <Footer />
 </main>
 
 <style>

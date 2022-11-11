@@ -1,9 +1,19 @@
 <script>
   export let text;
-  export let margin;
+  export let align;
+
+  function alignButton() {
+    if (align === "center") {
+      return "center";
+    }
+    if (align === "right") {
+      return "right";
+    }
+    return "left";
+  }
 </script>
 
-<button style={`margin:${margin}`}>
+<button class={alignButton()}>
   <a href="/">{text}</a>
 </button>
 
@@ -23,5 +33,11 @@
   a {
     color: var(--super_dark);
     font-size: 18px;
+  }
+  .center {
+    margin: auto;
+  }
+  .right {
+    float: right;
   }
 </style>

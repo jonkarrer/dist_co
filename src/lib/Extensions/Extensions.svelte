@@ -10,7 +10,7 @@
         The best hair you can afford, and installed by an Elite Invisible Bead
         Extension Artist.
       </p>
-      <Button text="Consultation" margin="auto" />
+      <Button text="Consultation" align="center" />
     </article>
 
     <img

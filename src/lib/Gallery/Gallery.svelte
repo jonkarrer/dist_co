@@ -12,13 +12,10 @@
 
     <img class="bottom_left" src="/gallery/bottom_left.jpg" alt="" />
   </div>
-  <Button text="Instagram" margin="auto" />
+  <Button text="Instagram" align="center" />
 </section>
 
 <style>
-  section {
-    margin-bottom: 60px;
-  }
   .wrapper {
     display: grid;
     grid-template-columns: 50% 1fr;

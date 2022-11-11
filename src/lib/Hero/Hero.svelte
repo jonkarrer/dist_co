@@ -7,3 +7,9 @@
   <MobileHero />
   <DesktopHero />
 </section>
+
+<style>
+  section {
+    margin: auto;
+  }
+</style>

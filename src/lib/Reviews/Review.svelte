@@ -18,7 +18,7 @@
     align-items: center;
 
     width: 265px;
-    margin: 100px auto;
+    margin: auto;
   }
   img {
     width: 90px;

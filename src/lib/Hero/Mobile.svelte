@@ -13,7 +13,7 @@
       This will be about the extensions. Focused on the sales pitch of the
       extensions.
     </p>
-    <Button text="Consultation" margin="auto" />
+    <Button text="Consultation" align="center" />
   </article>
 </div>
 
