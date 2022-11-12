@@ -36,7 +36,7 @@
   @media (min-width: 1024px) {
     footer {
       position: relative;
-      background-image: url("/footer/footer_background.jpeg");
+      background-image: url("/footer/footer_background.jpg");
       background-size: cover;
       background-position: center;
 
