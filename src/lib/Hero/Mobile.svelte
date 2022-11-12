@@ -4,7 +4,7 @@
 
 <div class="wrapper">
   <img
-    src="/hero/brunette-extensions-distilled-hair-co.jpeg"
+    src="/hero/brunette-extensions-distilled-hair-co.jpg"
     alt="stunning brunette extensions"
   />
   <article>
