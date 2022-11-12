@@ -21,7 +21,7 @@
     grid-template-columns: 50% 1fr;
     grid-auto-flow: row;
 
-    margin: 60px 0;
+    padding-bottom: 60px;
   }
   img {
     border-radius: 0px;

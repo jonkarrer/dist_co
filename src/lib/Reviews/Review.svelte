@@ -5,7 +5,7 @@
 </script>
 
 <div>
-  <img src={image} alt="of a customer" />
+  <img src={image} alt="of a customer reviewing" />
   <p>"{content}"</p>
   <cite>{cite}</cite>
 </div>
@@ -17,11 +17,11 @@
     grid-auto-flow: row;
     align-items: center;
 
-    width: 265px;
-    margin: auto;
+    width: 250px;
+    margin: 80px auto;
   }
   img {
-    width: 90px;
+    width: 80px;
     grid-row: 1 / span 2;
   }
   p {

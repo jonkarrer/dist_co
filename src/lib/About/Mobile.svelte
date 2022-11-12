@@ -30,7 +30,7 @@
 
 <style>
   .wrapper {
-    margin: 50px auto;
+    margin: auto;
   }
   .title {
     display: grid;

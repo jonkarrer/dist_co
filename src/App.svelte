@@ -8,6 +8,7 @@
   import Training from "./lib/Training/Training.svelte";
   import Products from "./lib/Products/Products.svelte";
   import Footer from "./lib/Footer/Footer.svelte";
+  import Ibe from "./lib/ibe/IBE.svelte";
 </script>
 
 <Header />
@@ -15,6 +16,7 @@
 <main>
   <Extensions />
   <About />
+  <Ibe />
   <Gallery />
   <Reviews />
   <Training />

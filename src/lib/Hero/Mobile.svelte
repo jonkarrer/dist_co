@@ -22,7 +22,6 @@
     max-width: var(--mobile__max-width);
     padding: var(--mobile__bounds);
     margin: auto;
-    margin-bottom: 100px;
   }
   img {
     width: 100%;
