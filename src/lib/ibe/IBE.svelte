@@ -26,7 +26,7 @@
     padding: 40px 0;
   }
   img {
-    width: 100px;
+    width: 80px;
   }
   article {
     display: grid;
@@ -49,32 +49,26 @@
     cursor: pointer;
   }
 
-  /*Sm*/
-  @media (min-width: 640px) {
+  /*Lg*/
+  @media (min-width: 1024px) {
     .wrapper {
-      max-width: 1000px;
-      padding: 40px 0;
+      max-width: 500px;
+      padding: 50px 0;
     }
     article {
       gap: 30px;
     }
     img {
-      width: 200px;
+      width: 160px;
     }
     p {
-      font-size: var(--sm);
+      font-size: 22px;
     }
     article button {
       width: 50%;
       padding: 5px;
       margin: auto;
       font-size: var(--xs);
-    }
-  }
-  /*Lg*/
-  @media (min-width: 1024px) {
-    p {
-      font-size: var(--base);
     }
     article button {
       width: 50%;

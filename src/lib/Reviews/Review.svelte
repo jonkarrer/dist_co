@@ -31,4 +31,24 @@
   cite {
     font-size: 11px;
   }
+
+  @media (min-width: 1024px) {
+    div {
+      place-items: center;
+
+      flex: 1;
+      margin: 80px auto;
+    }
+    img {
+      width: 100px;
+    }
+    p {
+      font-size: 14px;
+      width: 190px;
+    }
+    cite {
+      font-size: 16px;
+      width: 100%;
+    }
+  }
 </style>

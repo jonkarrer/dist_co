@@ -45,4 +45,43 @@
   .bottom_right {
     padding-right: 6px;
   }
+
+  /*
+***********************************************************
+* LG
+***********************************************************
+*/
+  @media (min-width: 1024px) {
+    .wrapper {
+      display: grid;
+      grid-template-columns: 50% 1fr;
+      grid-auto-flow: row;
+      gap: 32px;
+
+      padding-bottom: 60px;
+    }
+    img {
+      border-radius: 0px;
+      width: 100%;
+      height: 100%;
+    }
+    .left_bottom {
+      align-self: end;
+    }
+    .right {
+      padding-left: 0%;
+      grid-column: 2;
+      grid-row: 1 / span 2;
+    }
+    .bottom {
+      grid-column: 1 / span 2;
+      margin: 0;
+    }
+    .bottom_left {
+      padding-left: 0px;
+    }
+    .bottom_right {
+      padding-right: 0px;
+    }
+  }
 </style>

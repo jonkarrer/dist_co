@@ -1,9 +1,11 @@
 <script>
   import Mobile from "./Mobile.svelte";
+  import Desktop from "./Desktop.svelte";
 </script>
 
 <footer>
   <Mobile />
+  <Desktop />
 </footer>
 
 <style>

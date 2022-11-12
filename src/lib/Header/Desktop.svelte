@@ -34,7 +34,7 @@
       position: absolute;
       width: 100%;
 
-      padding: 0 70px;
+      padding: 0 var(--desktop__bounds);
 
       display: flex;
       justify-content: space-between;
@@ -42,7 +42,7 @@
     }
 
     img {
-      width: 110px;
+      width: 135px;
 
       display: flex;
       justify-content: flex-start;
@@ -59,7 +59,7 @@
 
     a {
       font-family: "Branch";
-      font-size: 16px;
+      font-size: 20px;
       text-decoration: none;
       color: var(--super_dark);
     }

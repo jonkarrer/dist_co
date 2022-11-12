@@ -23,4 +23,18 @@
   article * {
     margin: 32px 0;
   }
+  /* LG */
+  @media (min-width: 1024px) {
+    article * {
+      margin: 38px 0;
+    }
+    .wrapper {
+      display: flex;
+      align-items: center;
+      gap: 40px;
+    }
+    img {
+      width: 60%;
+    }
+  }
 </style>

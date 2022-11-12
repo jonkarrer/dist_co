@@ -10,7 +10,7 @@
   --mobile__max-width: 500px;
   --mobile__bounds: 0 24px;
   --desktop__max-width: 1000px;
-  --desktop__bounds: 70px;
+  --desktop__bounds: 80px;
   --image_radius: 3px;
 
   --accent: #625a3c;
@@ -59,11 +59,7 @@ li {
 @media (min-width: 768px) {
 }
 
-/*
-***********************************************************
-* LG
-***********************************************************
-*/
+/* LG */
 @media (min-width: 1024px) {
 }
 

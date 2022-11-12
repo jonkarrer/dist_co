@@ -96,4 +96,11 @@
     border-bottom: 1px solid var(--super_dark);
     width: 100px;
   }
+
+  /* LG */
+  @media (min-width: 1024px) {
+    .wrapper {
+      display: none;
+    }
+  }
 </style>
