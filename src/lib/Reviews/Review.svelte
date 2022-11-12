@@ -35,6 +35,7 @@
   @media (min-width: 1024px) {
     div {
       place-items: center;
+      max-width: 400px;
 
       flex: 1;
       margin: 80px auto;
@@ -44,7 +45,7 @@
     }
     p {
       font-size: 14px;
-      width: 190px;
+      width: auto;
     }
     cite {
       font-size: 16px;

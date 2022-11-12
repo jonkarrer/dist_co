@@ -77,36 +77,4 @@
       font-size: var(--sm);
     }
   }
-
-  /*XXl*/
-  @media (min-width: 1536px) {
-    .wrapper {
-      max-width: 1500px;
-    }
-    p {
-      font-size: var(--base);
-    }
-    img {
-      width: 300px;
-    }
-    article button {
-      font-size: var(--sm);
-    }
-  }
-
-  /*2k*/
-  @media (min-width: 2000px) {
-    .wrapper {
-      max-width: 2000px;
-    }
-    p {
-      font-size: var(--lg);
-    }
-    img {
-      width: 400px;
-    }
-    article button {
-      font-size: var(--md);
-    }
-  }
 </style>

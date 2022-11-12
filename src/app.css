@@ -11,6 +11,7 @@
   --mobile__bounds: 0 24px;
   --desktop__max-width: 1000px;
   --desktop__bounds: 80px;
+  --max__width: 1300px;
   --image_radius: 3px;
 
   --accent: #625a3c;
@@ -63,11 +64,7 @@ li {
 @media (min-width: 1024px) {
 }
 
-/*
-***********************************************************
-* XL
-***********************************************************
-*/
+/* XL */
 @media (min-width: 1280px) {
 }
 

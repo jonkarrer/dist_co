@@ -28,7 +28,7 @@
     .wrapper {
       display: flex;
       align-items: center;
-      justify-content: space-evenly;
+      justify-content: space-between;
     }
   }
 </style>

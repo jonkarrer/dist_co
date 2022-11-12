@@ -1,10 +1,6 @@
 <div />
 
 <style>
-  section {
-    display: none;
-  }
-
   /*
 ***********************************************************
 * LG
@@ -15,9 +11,11 @@
       display: block;
 
       height: 100vh;
-      width: 100vw;
+      width: 100%;
+      max-width: var(--max__width);
+      margin: auto;
 
-      border: var(--desktop__bounds) white solid;
+      border: var(--desktop__bounds) #fff solid;
 
       background-image: url("/hero/blonde-extensions-distilled-hair-co.jpg");
       background-size: cover;

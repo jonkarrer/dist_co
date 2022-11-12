@@ -31,11 +31,8 @@
   .wrapper {
     display: none;
   }
-  /*
-***********************************************************
-* LG
-***********************************************************
-*/
+
+  /* LG */
   @media (min-width: 1024px) {
     .wrapper {
       display: flex;
@@ -43,11 +40,12 @@
       justify-content: space-between;
 
       height: 100vh;
-      margin-bottom: 50px;
+      max-height: 600px;
     }
     article {
       text-align: center;
       display: grid;
+
       gap: 60px;
     }
     p {
@@ -55,11 +53,39 @@
       margin: auto;
     }
     img.larger {
-      width: 350px;
+      width: 335px;
       padding: 0 20px;
     }
     img.smaller {
-      width: 300px;
+      width: 275px;
+    }
+  }
+
+  /* XL */
+  @media (min-width: 1280px) {
+    .wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      height: 100vh;
+    }
+    article {
+      text-align: center;
+      display: grid;
+
+      gap: 60px;
+    }
+    p {
+      width: 90%;
+      margin: auto;
+    }
+    img.larger {
+      width: 380px;
+      padding: 0 20px;
+    }
+    img.smaller {
+      width: 315px;
     }
   }
 </style>

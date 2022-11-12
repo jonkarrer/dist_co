@@ -33,6 +33,10 @@
     span {
       position: absolute;
       width: 100%;
+      max-width: 1280px;
+      right: 0;
+      left: 0;
+      margin: auto;
 
       padding: 0 var(--desktop__bounds);
 
