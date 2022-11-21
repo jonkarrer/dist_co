@@ -1,7 +1,8 @@
 <div class="wrapper">
   <article class="title">
     <h3>
-      I love making woman happy about their hair from my cozy private suite.
+      My passion is giving women the confidence boost by enhancing their natural
+      hair.
     </h3>
     <img
       src="/about/good-vibes-distilled-hair-co.jpg"
@@ -17,10 +18,11 @@
 
     <div>
       <p>
-        This will be a paragraph describing amanda, how she got here, where she
-        has been. This will also describe the salon and why it is so nice. Maybe
-        even where it is. this will be a bit longer than normal paragraphs,
-        because of the dual bio.
+        I knew that our town needed better hair! Seeing extensions done
+        incorrectly really started to bother me, and I knew they could be
+        better. After spending years on education and certifications, I am now
+        at Platform Status for I.B.E. My extensions help woman feel confident
+        about their look as I bring back thier natural hair.
       </p>
 
       <cite> Amanda Gautreau </cite>

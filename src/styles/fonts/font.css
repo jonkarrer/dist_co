@@ -108,13 +108,13 @@ cite {
     font-size: 42px;
   }
   h2 {
-    font-size: 39px;
-  }
-  h3 {
     font-size: 36px;
   }
+  h3 {
+    font-size: 34px;
+  }
   p {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 1.2;
   }
 }
@@ -125,6 +125,19 @@ cite {
 ***********************************************************
 */
 @media (min-width: 1280px) {
+  h1 {
+    font-size: 42px;
+  }
+  h2 {
+    font-size: 39px;
+  }
+  h3 {
+    font-size: 36px;
+  }
+  p {
+    font-size: 20px;
+    line-height: 1.2;
+  }
 }
 
 /*

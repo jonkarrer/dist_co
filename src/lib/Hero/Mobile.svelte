@@ -8,10 +8,11 @@
     alt="stunning brunette extensions"
   />
   <article>
-    <h2>This will be about extensions</h2>
+    <h2>Professional Luxury Color and Extensions</h2>
     <p>
-      This will be about the extensions. Focused on the sales pitch of the
-      extensions.
+      We’ve taken the art of color and hair extensions to the next level. We
+      achieve high end looks for our guests by making extensions and color blend
+      with your natural beauty.
     </p>
     <Button text="Consultation" align="center" />
   </article>

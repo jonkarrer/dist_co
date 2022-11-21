@@ -9,7 +9,6 @@
     <img class="right" src="/gallery/right.jpg" alt="" />
     <img class="bottom" src="/gallery/bottom.jpg" alt="" />
     <img class="bottom_right" src="/gallery/bottom_right.jpg" alt="" />
-
     <img class="bottom_left" src="/gallery/bottom_left.jpg" alt="" />
   </div>
   <Button text="Instagram" align="center" />
@@ -54,7 +53,7 @@
   @media (min-width: 1024px) {
     .wrapper {
       display: grid;
-      grid-template-columns: 50% 1fr;
+      grid-template-columns: 1fr 1fr;
       grid-auto-flow: row;
       gap: 32px;
 

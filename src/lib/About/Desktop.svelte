@@ -5,7 +5,8 @@
   />
   <article class="bio">
     <h3>
-      I love making woman happy about their hair from my cozy private suite.
+      My passion is giving women the confidence boost by enhancing their natural
+      hair.
     </h3>
     <div class="content">
       <p>

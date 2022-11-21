@@ -6,12 +6,14 @@
   <div class="wrapper">
     <img src="/training/training.jpg" alt="" />
     <article>
-      <h2>Something about IBE Training</h2>
+      <h2>Certified IBE Stylist</h2>
       <p>
-        This will be about the training program and how to enroll. Why train
-        with amanda and how does it work.
+        Our goal is for all guest coming into the suite to receive the best
+        experience from the most knowledgeable stylist. All of our extension
+        specialist have gone through the full IBE certification program, and
+        have been professionally trained under myself, an Elite IBE aritist.
       </p>
-      <Button text="Training" align="left" />
+      <Button text="Consultation" align="left" />
     </article>
   </div>
 </section>
@@ -19,14 +21,15 @@
 <style>
   img {
     width: 100%;
+    margin-bottom: 20px;
   }
-  article * {
-    margin: 32px 0;
+  p {
+    margin: 24px 0;
   }
   /* LG */
   @media (min-width: 1024px) {
-    article * {
-      margin: 38px 0;
+    article {
+      max-width: 470px;
     }
     .wrapper {
       display: flex;
@@ -34,7 +37,8 @@
       gap: 40px;
     }
     img {
-      width: 60%;
+      min-width: 450px;
+      margin-bottom: 0px;
     }
   }
 </style>
