@@ -35,6 +35,9 @@
   article p {
     color: white;
   }
+  a {
+    color: var(--super_dark);
+  }
   article button {
     width: 50%;
     padding: 5px;
